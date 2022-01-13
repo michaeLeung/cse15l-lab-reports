@@ -1,3 +1,3 @@
-Hello, World!
-Michael Leung
-Whales
+*Hello, World!*
+**Michael Leung**
+## Whales
