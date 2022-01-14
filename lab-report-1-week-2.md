@@ -10,12 +10,12 @@ If on windows, first install [OpenSSH](https://docs.microsoft.com/en-us/windows-
 
 instead of aoc, put the specific letters that correspond to your student account
 
-After connecting, it will ask you for a password. Enter your password for your student account and the terminal should look like this after logging in. (when putting in your password you can't see what you type in but once you type all of it and press enter, assuming you have no typos it will log you in) ![image](logging into ssh.png) 
+After connecting, it will ask you for a password. Enter your password for your student account and the terminal should look like this after logging in. (when putting in your password you can't see what you type in but once you type all of it and press enter, assuming you have no typos it will log you in) ![image](loggingintossh.png) 
 You are now logged in!
 
 **Trying some commands**
 
-Try using ls on both your local computer and the student account terminal and see what happens. ![image](ls.png) ![image](ls on ssh.png)
+Try using ls on both your local computer and the student account terminal and see what happens. ![image](ls.png) ![image](lsonssh.png)
 
 As you can see, ls is different for your local computer and the student account terminal. This is because after you have ssh-ed you have logged into the ieng6 server for your student account which won't have all the files and content as your local computer. Other commands such as cd, mkdir, and pwd will have different results in your local terminal and the ssh terminal, because even though you are on the same laptop or computer after ssh-ing all the commands you put in the terminal before logging out all are processed in the ssh terminal. Feel free to try it out for yourself!
 
