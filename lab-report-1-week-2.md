@@ -21,4 +21,41 @@ As you can see, ls is different for your local computer and the student account 
 
 **Moving Files with scp**
 
-Even though after logging into your student - specific account all the commands in the terminal correspond to that account, there are ways to move files from your local device to the student account. 
+Even though after logging into your student - specific account all the commands in the terminal correspond to that account, there are ways to move files from your local device to the student account.
+
+First, create a file with any contents you want. Here as an example I have a file named pizza that simply prints out the word pizza when run on the terminal ![image](pizza.png). To copy this file to the remote account use the scp command as seen here: 
+![image](scp.png)
+
+After entering the scp with your file name and student account, it should prompt you for your password. After ssh-ing, you should be able to see your file when inputting the command ls. ![image](pizzals.png)
+
+**SSH keys**
+
+Inputting in your password every time you try to log into the ieng6 server is tedious but there is a way so you don't have to input your password every time. 
+
+First, type into your local terminal ssh-keygen. 
+
+Next, it will prompt you for a file in which to save the key, where you can re-input what they give you in parenthesis. 
+
+![image](sshkeygen.png)
+
+It will ask you for a passphrase where you can just push enter to not have a passphrase to make it easier to log in. 
+
+![image](key.png)
+
+Log into your ssh account and create a new directory called .ssh by inputting mkdir .ssh
+
+Logout and copy the key into your account by inputting this command to your local terminal. 
+
+![image](key2.png)
+
+Enter in your password one more time. From now on when you ssh into your student account, it will no longer prompt you for a password!
+
+**Optimizing Remote Running**
+
+Instead of inputting separate commands when you want to scp a file onto your remote account, it can all be done in one line. By putting a parenthesis on the command you want to input in the ssh server, it will log out after being done with that command. Also, multiple commands can be used on the same line in the terminal by separating commands with a semicolon. Combining these two steps together, a file can be copied and run on the ssh server very efficiently. This is demonstrated using the pizza file again: 
+![image](optimizing.png)
+
+The scp command first copies the  pizza file into the student account. Then following the semicolon, the ssh command logs us into the student account and running the commands within the parenthesis and promptly logging out. As you can see, Pizza is printed out as a result. 
+
+
+
