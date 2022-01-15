@@ -6,7 +6,7 @@ After downloading, opening vscode should show this ![image](vscode.png)
 
 **How to connect to course specific account on ieng6**
 
-If on windows, first install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) by following the instructions on the link provided. Next, create a new terminal on visual studio code ![image](New terminal.png) and type out this code on the terminal to connect to your student account ![image](ssh command.png)
+If on windows, first install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) by following the instructions on the link provided. Next, create a new terminal on visual studio code ![image](Newterminal.png) and type out this code on the terminal to connect to your student account ![image](sshcommand.png)
 
 instead of aoc, put the specific letters that correspond to your student account
 
