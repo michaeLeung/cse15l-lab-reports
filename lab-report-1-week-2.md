@@ -67,7 +67,8 @@ Enter in your password one more time. From now on when you ssh into your student
 
 # Optimizing Remote Running
 
-To save time, you can run multiple commands on the same line in the terminal. To separate the commands within the terminal, use the key `;`.You can also tell the terminal the commands you want to put in the ssh terminal using `" command you want to run on ssh terminal "`. 
+To save time, you can run multiple commands on the same line in the terminal. To separate the commands within the terminal, use the key `;`.You can also tell the terminal the commands you want to put in the ssh terminal using 
+`" command you want to run on ssh terminal "`. 
 Here's an example
 `scp pizza.java cs15lwi22aoc@ieng6.ucsd.edu; ssh cs15lwi22aoc@ieng6.ucsd.edu "javac pizza.java; java pizza"`
 
