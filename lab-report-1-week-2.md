@@ -56,7 +56,8 @@ It will ask you for a passphrase where you can just push enter to not have a pas
 
 ![image](key.png)
 
-Log into your ssh account and create a new directory called .ssh by inputting mkdir .ssh
+Log into your ssh account and create a new directory called .ssh by inputting into the ssh terminal
+`mkdir .ssh`
 
 Logout and copy the key into your account by inputting this command to your local terminal. 
 
