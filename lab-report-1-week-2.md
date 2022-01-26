@@ -8,7 +8,7 @@ After downloading, opening vscode should show this ![image](vscode.png)
 
 If on windows, first install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) by following the instructions on the link provided. Next, create a new terminal on visual studio code ![image](Newterminal.png) and type out this code on the terminal to connect to your student account `ssh cse15lwi22aoc@ieng6.ucsd.edu`
 
-instead of aoc, put the specific letters that correspond to your student account
+instead of `aoc`, put the specific letters that correspond to your student account
 
 After connecting, it will ask you for a password. Enter your password for your student account and the terminal should look like this after logging in. ![image](loggingintossh.png) 
 You are now logged in!
@@ -38,25 +38,28 @@ class pizza {
 
 `scp pizza.java cs15lwi22aoc@ieng6.ucsd.edu`
 
-After entering the scp with your file name and student account, it should prompt you for your password. After ssh-ing, you should be able to see your file when inputting the command ls. ![image](pizzals.png)
+After entering the scp with your file name and student account, it should prompt you for your password. After ssh-ing, you should be able to see your file when inputting the command `ls`. ![image](pizzals.png)
 
 # SSH keys
 
 Inputting in your password every time you try to log into the ieng6 server is tedious but there is a way so you don't have to input your password every time. 
 
-First, type into your local terminal ssh-keygen. 
+First, type into your local terminal `ssh-keygen`. 
 
 Next, it will prompt you for a file in which to save the key, where you can re-input what they give you in parenthesis. 
 
 ![image](sshkeygen.png)
 
-So here, my file name is `/Users/leung_moneyy/.ssh/id_rsa`
+So here, my file name is:
+
+`/Users/leung_moneyy/.ssh/id_rsa`
 
 It will ask you for a passphrase where you can just push enter to not have a passphrase to make it easier to log in. 
 
 ![image](key.png)
 
-Log into your ssh account and create a new directory called .ssh by inputting into the ssh terminal
+Log into your ssh account and create a new directory called .ssh by inputting this command into your ssh terminal
+
 `mkdir .ssh`
 
 Logout and copy the key into your account by inputting this command to your local terminal. 
@@ -68,8 +71,11 @@ Enter in your password one more time. From now on when you ssh into your student
 # Optimizing Remote Running
 
 To save time, you can run multiple commands on the same line in the terminal. To separate the commands within the terminal, use the key `;`.You can also tell the terminal the commands you want to put in the ssh terminal using 
-`" command you want to run on ssh terminal "`. 
-Here's an example
+
+`"insert command here"`. 
+
+Here's an example:
+
 `scp pizza.java cs15lwi22aoc@ieng6.ucsd.edu; ssh cs15lwi22aoc@ieng6.ucsd.edu "javac pizza.java; java pizza"`
 
 
