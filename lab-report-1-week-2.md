@@ -71,7 +71,7 @@ Here's an example
 `scp pizza.java cs15lwi22aoc@ieng6.ucsd.edu; ssh cs15lwi22aoc@ieng6.ucsd.edu "javac pizza.java; java pizza"`
 
 
-The scp command first copies the  pizza file into the student account. Then following the semicolon, the ssh command logs us into the student account and runs the commands within the parenthesis and promptly logging out. As you can see, Pizza is printed out as a result. 
+The scp command first copies the  pizza file into the student account. Then following the semicolon, the ssh command logs us into the student account and runs the commands within the parenthesis and promptly logging out. As you can see, Pizza is printed out as a result, and this compile and run was executed in the ssh server!
 
 ![image](optimizing.png)
 
