@@ -83,6 +83,6 @@ The scp command first copies the  pizza file into the student account. Then foll
 
 ![image](optimizing.png)
 
-This is a very effective way of being able make changes to your local terminal and the ssh terminal at the same time and on the same line. 
+This is a very effective way of being able make changes to your local terminal and the ssh terminal at the same time and on the same line. If we copy and paste the `cs15lwi22aoc@ieng6.ucsd.edu`, and the `ssh cs15lwi22aoc@ieng6.ucsd.edu` the commands in one line should only take around 50-55 keystrokes, however if had to enter each command individually because we would have to press enter more times, enter the commands within the ssh server, and logout it would take a more. 
 
 
