@@ -8,17 +8,17 @@ Snippet 1:
 
 this test failed producing this output
 
-![image](test-my-code-block-1-result.png)
+![image](test-my-code-block1-result.png)
 
 Snippet 2:
-![image](test-my-code-block2.png)
+![image](test-my-code-block-2.png)
 
 this test failed producing this output
 
-![image](test-my-code-block2-result.png)
+![image](test-my-code-block-2-result.png)
 
 Snippet 3:
-![image](test-my-code-block-3.png)
+![image](test-my-code-block3.png)
 
 this test failed producing this output
 
