@@ -1,4 +1,4 @@
-Two different outputs that I found when comparing the markdownparse that my lab group made and the markdownparse that was shown in week 9's lab were in the files [488.md](https://michaeleung.github.io/cse15l-lab-reports/488.html) and [577.md](https://michaeleung.github.io/cse15l-lab-reports/577.html) within the test-files/ 
+Two different outputs that I found when comparing the markdownparse that my lab group made and the markdownparse that was shown in week 9's lab were in the files 488.md which contained: `[link](</my uri>)` (no backticks, just to make sure md doesn't register that as a file) and and 577.md which contained: `![foo](train.jpg)` within the test-files/ 
 
 I first converted the results of running the my own markdownparse and the markdownparse provided in the lab by using `bash script.sh > results.txt`. 
 
