@@ -9,3 +9,4 @@
 new edit on vsc
 [Lab Report 1](lab-report-1-week-2.html)
 [Lab Report 1](https://michaeleung.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[Lab Report 5](https://michaeleung.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
